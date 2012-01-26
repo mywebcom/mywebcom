@@ -41,8 +41,8 @@
             <default_setup>
                 <connection>
                     <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[root]]></username>
-                    <password><![CDATA[]]></password>
+                    <username><![CDATA[mywebcom]]></username>
+                    <password><![CDATA[Q18jHKAIhktbCe]]></password>
                     <dbname><![CDATA[mywebcom_magento]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
