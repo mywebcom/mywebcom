@@ -1,0 +1,23 @@
+#nav {border-top-right-radius: 5px;
+border-top-left-radius: 5px;-moz-border-radius-topleft: 5px;  -moz-border-radius-topright: 5px;-webkit-border-top-right-radius: 5px;  -webkit-border-top-left-radius: 5px; 
+	
+}
+#nav ul {border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomleft: 10px;  -moz-border-radius-bottomright: 10px;-webkit-border-bottom-right-radius: 10px;  
+	-webkit-border-bottom-left-radius: 10px; }
+	#nav ul ul {border-radius: 10px;-moz-border-radius: 10px;-webkit-border-bottom-right-radius: 10px;  
+	-webkit-border-radius: 10px; }
+	
+.breadcrumbs{border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px;  -moz-border-radius-bottomright: 5px;-webkit-border-bottom-right-radius: 5px;  
+	-webkit-border-bottom-left-radius: 5px; }
+	
+	
+.mini-search .input-text {border-radius: 5px;-moz-border-radius-bottomleft: 5px;  -moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.add-to-cart-box {border-radius: 5px;-moz-border-radius-bottomleft: 5px;  -moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.tabs {border-top-right-radius: 5px;border-top-left-radius: 5px;-moz-border-radius-topleft: 5px;  -moz-border-radius-topright: 5px;-webkit-border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px;}
+.one-page-checkout .active .head {border-top-right-radius: 5px;border-top-left-radius: 5px;-moz-border-radius-topleft: 5px;  -moz-border-radius-topright: 5px;-webkit-border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px;
+}
+.one-page-checkout .allow .head {border-top-right-radius: 5px;border-top-left-radius: 5px;-moz-border-radius-topleft: 5px;  -moz-border-radius-topright: 5px;-webkit-border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px;
+}
+textarea, option, optgroup, input.input-text, input.radio, input.checkbox, .v-fix, .v-fix .validation-advice, 
+.qty {border-radius: 5px;-moz-border-radius-bottomleft: 5px;  -moz-border-radius: 5px;-webkit-border-radius: 5px;}
+select {border-radius: 2px;-moz-border-radius-bottomleft: 2px;  -moz-border-radius: 2px;-webkit-border-radius: 2px;}
