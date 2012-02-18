@@ -3,9 +3,9 @@
 	<default>
 		<reference name="top.links">
 			<action method="addLink">
-				<label>Contact Us</label>
+				<label>Contact Me</label>
 				<url>/contacts</url>
-				<title>contact us</title>
+				<title>contact me</title>
 				<prepare />
 				<urlParams />
 				<position>999</position>

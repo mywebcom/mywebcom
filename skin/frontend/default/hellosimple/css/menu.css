@@ -20,9 +20,9 @@
  * @copyright  Copyright (c) 2008 Irubin Consulting Inc. DBA Varien (http://www.varien.com)
  * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
-.navigation {width: 980px;border-bottom: 1px solid #ddd;background:url(../images/nav-custom.png) repeat-x; }
+.navigation {height:50px }
 #nav p{margin: 0px;padding:0px;}
-#nav { float:left; font-size:1.1em; }
+#nav { float:right; font-size:1.1em; }
 
 /************** ALL LEVELS  *************/ /* Style consistent throughout all nav levels */
 #nav li { position:relative; text-align:left;	}
@@ -33,9 +33,9 @@
 #nav li ul span {white-space:normal; }
 
 /************ 0 LEVEL  ***************/
-#nav li { float:left;padding:18px 15px; border-right:1px solid #333; z-index:1;}
+#nav li { float:left;padding:17px 15px; border-right:1px solid #333; z-index:1;}
 #nav li.active a { color: #fff; }
-#nav a { float:left;color:#fff; font-weight:bold; }
+#nav a { float:left;color:#CCCCCC; font:normal 16px arial; }
 #nav li.over a, #nav li.over a:hover {color: #fff;}
 
 #nav a:hover {color:#fff;  }

@@ -31,12 +31,16 @@
  * @see Mage_Catalog_Block_Navigation
  */
 ?>
-       <div class="navigation"> <ul id="nav">
-		<li onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)" class="level0 nav- parent"><span><a href="<?php echo $this->getUrl('')?>"><?php echo $this->__('Homepage') ?></span></a></li>
-        <?php foreach ($this->getStoreCategories() as $_category): ?>
-            <?php echo $this->drawItem($_category) ?>
-        <?php endforeach ?>
-
+       <div class="navigation">
+        <ul id="nav">
+			<li onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)" class="level0 nav- parent">
+				<span>
+					<a href="<?php echo $this->getUrl('')?>"><?php echo $this->__('Home') ?></a>
+				</span>
+			</li>
+	        <?php foreach ($this->getStoreCategories() as $_category): ?>
+	            <?php echo $this->drawItem($_category) ?>
+	        <?php endforeach ?>
         </ul>
-		 <?php echo $this->getChildHtml('topSearch') ?>
-			<div class="clear"></div> </div>
+		<div class="clear"></div> 
+		</div>

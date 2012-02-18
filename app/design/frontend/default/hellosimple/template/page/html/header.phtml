@@ -25,7 +25,7 @@
  */
 ?>
 
-<div class="conditions">
+<div class="topwrap">
   <div class="right">
     <?php //echo $this->getWelcome()?>
     <?php echo $this->getChildHtml('newsletter')?></div>
@@ -34,8 +34,12 @@
     <?php echo $this->getChildHtml('topLinks') ?>
   </div>
 </div>
-<div class="header">
-  <h1 id="logo"><a href="<?php echo $this->getUrl('') ?>"><img src="<?php echo $this->getUrl('') ?>/skin/frontend/default/hellosimple/images/logo.png" alt="<?php //echo $this->getLogoAlt() ?>"/></a></h1>
-  <?php //echo $this->getChildHtml('cartsidebar') ?>
+<div class="headwrap">
+	<div class="header">
+	  <h1 id="logo"><a href="<?php echo $this->getUrl('') ?>"><img src="<?php echo $this->getUrl('') ?>/skin/frontend/default/hellosimple/images/logo.png" alt="<?php //echo $this->getLogoAlt() ?>"/></a></h1>
+	  <?php //echo $this->getChildHtml('cartsidebar') ?>
+	</div>
+	<div class="menuwrap">
+	<?php echo $this->getChildHtml('topMenu') ?> 
+	</div>
 </div>
-<?php echo $this->getChildHtml('topMenu') ?> 
