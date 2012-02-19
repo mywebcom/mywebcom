@@ -318,12 +318,14 @@ padding:3px 8px;
 /* Structure */
 .wrapper {background:#efefef url(../images/bg_topbar.png) repeat-x; min-width: 980px;}
 .breadcrumbswrap {width:940px;margin:0 auto; text-align:left}
+.logowrap,
 .middle,
 .menuwrap,
 .topwrap      {width:980px; margin:0px auto; text-align:left; }
 .header         { position: relative;height: 65px; z-index:999; text-align:left;padding: 0;}
 .middle         { min-height:350px; padding: 10px 0px 30px 0px; }
 .layout-1column { padding:0 10px 40px 10px; border-width: 0px 1px; }
+.logowrap {position:relative}
 .col-left       { float:left; width:230px; margin-left: 10px; }
 .col-right       { float:right; width:304px }
 .col-main       { float:right; width:614px; margin-right: 40px;}
@@ -348,7 +350,7 @@ padding:3px 8px;
 /*********************** Menu */
 .menuwrap {width:980px;margin:0 auto}
 /* Logo */
-h1#logo                 { position:absolute;float:left; left: 0px;top:0px;margin-top:-40px;}
+h1#logo                 { position:absolute;float:left; left: 60px;top:30px}
 .msg{float: right;padding-right: .5em;}
 .side-logo-promo        { position: absolute;float:left; left: 305px; }
 .quick-access {position: absolute; float: left;left: 530px; background: url(../images/useraccess.gif) no-repeat;width: 228px;height: 71px;  }
