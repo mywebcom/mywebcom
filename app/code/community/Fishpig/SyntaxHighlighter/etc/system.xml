@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+    	<syntaxhighlighter translate="label" module="syntaxhighlighter">
+            <label>Syntax Highlighter</label>
+            <tab>fishpig</tab>
+            <sort_order>900</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+				<settings translate="label comment" module="syntaxhighlighter">
+					<label>Syntax Highlighter</label>
+					<comment><![CDATA[The Javascript Syntax Highlighter library was written by <a href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_blank">Alex Gorbatchev</a>.]]></comment>
+					<sort_order>990</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+            		<fields>
+						<is_enabled>
+							<label>Enabled</label>
+							<comment>Enabling this will automatically add splash page links into the layered navigation.</comment>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>6</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</is_enabled>
+						<theme>
+							<label>Theme</label>
+							<frontend_type>select</frontend_type>
+							<source_model>syntaxhighlighter/system_config_source_theme</source_model>
+							<sort_order>21</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</theme>
+						<load_globally>
+							<label>Load JS Globally</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>41</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</load_globally>
+						<load_on_homepage>
+							<label>Load On Homepage</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>46</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<depends><load_globally>0</load_globally></depends>
+						</load_on_homepage>
+						<load_on_cms_page_view>
+							<label>Load On CMS Page</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>51</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<depends><load_globally>0</load_globally></depends>
+						</load_on_cms_page_view>
+						<load_on_product_view>
+							<label>Load On Product Page</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>56</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<depends><load_globally>0</load_globally></depends>
+						</load_on_product_view>
+						<custom_layout_handles>
+							<label>Custom Layout Handles</label>
+							<comment>Enter comma or new line separated custom layout handles that you want to load the JS files for.</comment>
+							<frontend_type>editor</frontend_type>
+							<sort_order>101</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<depends><load_globally>0</load_globally></depends>
+						</custom_layout_handles>
+					</fields>
+				</settings>
+            </groups>
+        </syntaxhighlighter>
+    </sections>
+</config>
