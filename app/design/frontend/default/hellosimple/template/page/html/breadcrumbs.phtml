@@ -24,7 +24,9 @@
  * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<?php if($crumbs && is_array($crumbs)): ?><div class="breadcrumbs">
+<?php if($crumbs && is_array($crumbs)): ?>
+<div class="breadcrumbs">
+<div class="breadcrumbswrap">
 <h4 class="no-display"><?php echo $this->__("You're currently on:") ?></h4>
 <ul class="crumbs">
     <?php foreach($crumbs as $_crumbName=>$_crumbInfo): ?>
@@ -44,4 +46,5 @@
   <?php endforeach; ?>
 </ul> <div class="clear"></div>
 </div> 
+</div>
 <?php endif; ?>

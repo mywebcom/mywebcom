@@ -63,16 +63,16 @@ Default layout, loads most of the pages
             </block>
 
            
-            <block type="page/html_header" name="header" as="header">  <block type="page/template_links" name="top.links" as="topLinks"/><block type="cms/block" name="footer.links">
-          <action method="setBlockId"><block_id>footer_links</block_id></action>
-      </block><block type="checkout/cart_sidebar" name="cartsidebar" template="checkout/cart/top_sidebar.phtml"/><block type="page/switch" name="store_language" as="store_language" template="page/switch/languages.phtml"/> 
+            <block type="page/html_header" name="header" as="header">  
+            <block type="page/template_links" name="top.links" as="topLinks"/>
+            <block type="cms/block" name="footer.links">
+                <action method="setBlockId"><block_id>footer_links</block_id></action>
+            </block>
+            <block type="checkout/cart_sidebar" name="cartsidebar" template="checkout/cart/top_sidebar.phtml"/>
+                <block type="page/switch" name="store_language" as="store_language" template="page/switch/languages.phtml"/> 
                 <block type="core/text_list" name="top.menu" as="topMenu">
-				
 				</block>
             </block>
-
-           
-
             <block type="page/html_breadcrumbs" name="breadcrumbs" as="breadcrumbs"/>
 
             <block type="core/text_list" name="left" as="left"/>

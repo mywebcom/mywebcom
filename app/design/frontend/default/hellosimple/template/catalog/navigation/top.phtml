@@ -38,9 +38,9 @@
 					<a href="<?php echo $this->getUrl('')?>"><?php echo $this->__('Home') ?></a>
 				</span>
 			</li>
-	        <?php foreach ($this->getStoreCategories() as $_category): ?>
-	            <?php echo $this->drawItem($_category) ?>
-	        <?php endforeach ?>
+				<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('header_links')->toHtml() ?> 
+	        <?php //foreach ($this->getStoreCategories() as $_category): ?>
+	            <?php //echo $this->drawItem($_category) ?>
+	        <?php //endforeach ?>
         </ul>
-		<div class="clear"></div> 
 		</div>

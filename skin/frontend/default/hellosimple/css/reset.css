@@ -26,9 +26,9 @@
 
 * { margin:0; padding:0; }
 
-body        { background:#2c2c2c; color:#444; font:11px/1.55em arial, helvetica, sans-serif; text-align:center; }
-a           { color:#047e89; text-decoration:none; }
-a:hover     { color:#047e89; text-decoration:underline; }
+body        { background:#2c2c2c; color:#666666; font:13px arial, helvetica, sans-serif; text-align:center;line-height:1.286em }
+a           { color:#8CB133; text-decoration:none; }
+a:hover     { color:#8CB133; text-decoration:underline; }
 a img       { border:0;}
 :focus      { outline:0; }
 .clear{clear:both;}
